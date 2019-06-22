@@ -1,11 +1,32 @@
 img
 {
-  margin-left: 960px;
-  margin-right: auto;
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);border-radius: 1000px;
+  position: absolute;
+  right: 150px;
+  padding-top: : 200px;
+  border-radius: 1000px;
+ 
+  width: 350px;
+  height: 350px;
+  
 }
 
 body
 {
 	font-family: 'Work Sans', sans-serif;
+}
+
+h1
+{
+	font-size: 60px;
+	margin-left: 100px;
+	
+	
+}
+
+.intro
+{
+	margin-left: 100px;
+	padding-top: 10px;
+	padding-right: 1000px;
+	font-size: 25px;
 }
