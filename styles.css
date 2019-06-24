@@ -1,8 +1,11 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+* {
+  box-sizing: border-box;
+}
 
 
 ul {
-	padding-top: 60px;
+    padding-top: 60px;
     padding-left: 70px;
     list-style: none;
 }
@@ -102,63 +105,106 @@ ul.social-icons {
 
 img
 {
-  position: absolute;
-  right: 150px;
-  top: 150px;
-  border-radius: 1000px;
-  width: 350px;
-  height: 350px;
-  
+  float: right;
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: 20px;
+ 
+
 }
 
 body
 {
-	font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 h1
 {
-	font-size: 65px;
-	margin-left: 130px;
-	padding-top: 170px;
+    margin-left: 150px;
+    padding-top: 200px;
+    width: 40%;
     letter-spacing: 1.2px;
-	
+    
 }
 
 .intro
 {
-	margin-left: 130px;
-	padding-top: 20px;
-	margin-right: 1000px;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
-	font-size: 22.5px;
-	text-align: justify;
-	background-color: #e0e0e0;
+    font-size: 22px;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    background-color: #e0e0e0;
 }
 
 footer
 {
-	text-align: center;
-	margin-top: 75px;
+    text-align: center;
+    margin-top: 75px;
 
 }
 
-a:link {
+@media only screen and (min-width: 300px) {
+    .hi{width: 100%;
+        margin-left: 0px;}
+    .intro{width: 100%;
+    margin-left: 0px;}
+    .img1{
+        width: 100%;
+        height: auto;
+        
+        
+        border-radius: 100%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .hi
+{
+    margin-left: 150px;
+    padding-top: 220px;
+    width: 40%;
+    letter-spacing: 1.2px;
+    
+}
+
+.intro
+{
+    font-size: 22px;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    background-color: #e0e0e0;
+}
+
+img
+{
+  float: right;
+  width: 25%;
+  margin-top: 100px;
+  margin-right: 100px;
+  border-radius: 100%;
+
+}
+    }
+
+
+
+a.nice:link {
   color: black;
 }
 
 /* visited link */
-a:visited {
+a.nice:visited {
   color: black;
 }
 
 /* mouse over link */
-a:hover {
+a.nice:hover {
   color: grey;
 }
 
 /* selected link */
-a:active {
+a.nice:active {
   color: blue;
