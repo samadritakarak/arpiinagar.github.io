@@ -17,8 +17,9 @@ ul {
   overflow: hidden;
   background-color: white;
   margin-left:125px;
-  margin-top:80px;
+  margin-top:75px;
   font-size: 20px;
+  
 
 }
 
@@ -32,6 +33,10 @@ ul {
   text-align: center;
   padding: 20px;
   text-decoration: none;
+}
+
+.bar li a:hover {
+  background-color: lightgrey;
 }
 
 
@@ -138,8 +143,9 @@ ul.social-icons {
 img
 {
   float: right;
-  width: 100%;
-  border-radius: 10px;
+  width: 50%;  
+  transform: rotate(90deg);
+  height: auto;
   padding-bottom: 20px;
  
 
@@ -153,7 +159,7 @@ body
 h1
 {
     margin-left: 150px;
-    padding-top: 200px;
+    padding-top: 50px;
     width: 40%;
     letter-spacing: 1.2px;
     
@@ -166,7 +172,7 @@ h1
     margin-top: 20px;
     margin-left: 150px;
     margin-bottom: 100px;
-    background-color: #e0e0e0;
+    
 }
 
 footer
@@ -181,20 +187,30 @@ footer
         max-width: 100%;
         margin-left: 0px;
         margin-top: 10px;
-        font-size: auto;
+        font-size: 14px;
+        margin-bottom: 15px;
     }
     .hi{width: 100%;
-        margin-left: 0px;}
+        margin-left: 0px;
+        margin-bottom: 50px;}
     .intro{width: 100%;
     margin-left: 0px;}
     .img1{
+
         width: 100%;
+        height: 100%;
+        margin-right: 20px;
         height: auto;
-        border-radius: 100%;
         
-        
-        border-radius: 100%;
+
     }
+
+        
+        
+        
+        
+        
+    
 }
 
 @media only screen and (min-width: 800px) {
@@ -202,7 +218,7 @@ footer
         max-width: 100%;
         margin-left: 125px;
         margin-top: 75px;
-        font-size: auto;
+        font-size: 18px;
     }
 
 
@@ -231,7 +247,7 @@ img
   width: 25%;
   margin-top: 100px;
   margin-right: 100px;
-  border-radius: 100%;
+  
 
 }
     }
