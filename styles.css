@@ -1,6 +1,8 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 * {
   box-sizing: border-box;
+  
+
 }
 
 
@@ -19,12 +21,19 @@ ul {
   margin-left:125px;
   margin-top:75px;
   font-size: 20px;
+}
   
 
-}
+
 
 .bar li {
   float: left;
+
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
 }
 
 .bar li a {
@@ -47,8 +56,9 @@ ul {
 
 
 .footer-social-icons {
-    width: 350px;
-    display:block;
+    
+    display:flex;
+    justify-content: center;
     margin: 0 auto;
 }
 .social-icon {
@@ -182,13 +192,19 @@ footer
 
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (max-width: 500px) {
     .bar{
-        max-width: 100%;
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
         margin-left: 0px;
-        margin-top: 10px;
-        font-size: 14px;
-        margin-bottom: 15px;
+        margin-top:0px;
+
+    }
+    .bar li
+    {
+        padding-top: 0px;
     }
     .hi{width: 100%;
         margin-left: 0px;
@@ -196,12 +212,11 @@ footer
     .intro{width: 100%;
     margin-left: 0px;}
     .img1{
-
-        width: 100%;
-        height: 100%;
-        margin-right: 20px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
         height: auto;
-        
+
 
     }
 
